@@ -1,0 +1,51 @@
+= Bash Cheatsheet
+Igor Ovsiannikov
+v1.0, 2019-01-19
+
+== Shell Special Variables
+
+[cols="^1,5,2",options=header]
+|===
+|Variable
+|Desription
+|Context
+
+|`$$`
+|Contains the process id of the program
+|
+
+|`$?`
+|Contain the exit status of last executed command
+|
+
+|`$#`
+|Contains the number of arguments on the command line
+|In a shell script
+
+|`$@`
+|Contains list of command line arguments
+|In a shell script
+
+|`$0, $1, ...`
+|Are known as positional parameters. Contain the contents of the command line.
+|In a shell script
+
+|`$0`
+|Contains name of the program
+|In a shell script
+
+|`$1, $2, ...`
+|Contain command line arguments following the program name (`$0`)
+|In a shell script
+
+|`$1, $2, ...`
+|Contain the function arguments. _Shadows script arguments._
+|In a function
+
+|`$REPLY`
+|Contains `read` command input
+|After `read` command was called without a variable name
+
+|===
+
+
