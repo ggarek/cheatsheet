@@ -1,0 +1,4 @@
+---
+(C) {localyear} Igor Ovsiannikov. 
+Verbatim copying and redistribution of this entire article 
+are permitted in any medium, provided this notice is preserved.

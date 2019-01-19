@@ -1,5 +1,11 @@
 = My Cheatsheets
 Igor Ovsiannikov
-v1.0, 2019-01-19
+v1.1, 2019-01-19
 
 * link:src/bash.adoc[Bash]
+
+---
+(C) {localyear} Igor Ovsiannikov.
+Verbatim copying and redistribution of this entire article
+are permitted in any medium, provided this notice is preserved.
+
